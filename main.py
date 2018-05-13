@@ -1,9 +1,8 @@
 from time import sleep
 import requests
 import datetime
-import const
 #Установка адреса бота
-url = 'https://api.telegram.org/bot' + const.TELEGRAM_API_TOKEN + '/'
+url = 'https://api.telegram.org/bot406105053:AAE6671xAuGcf1JBJz6ihfaRFY27bAuqU2Q'
 
 class Bot:
     def __init__(self):
